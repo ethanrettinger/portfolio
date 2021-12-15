@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethan Rettinger</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <script defer src="script.js"></script>
+    <nav>
+      <ul>
+        <li class="active">
+          <a href="index.html"><i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fas fa-book"></i>
+            <span>About</span>
+          </a>
+        </li>
+        <li>
+          <a href="resume.html"><i class="fas fa-align-left"></i>
+            <span>Resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="videos.html"><i class="fas fa-video"></i>
+            <span>Videos</span>
+          </a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fas fa-address-card"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Ethan Rettinger</h1>
+      <h2>Web Developer</h2>
+    </header>
+    <main>
+      <section id="about">
+        <h3>
+          I'm a <span id="info">frontend</span> web developer who specializes in
+          creating clean, responsive, and user-friendly websites.
+        </h3>
+        <div class="progress">
+          <div id="progress-bar-js" class="progress-bar">
+            <label class="lang">JS</label>
+          </div>
+          <label class="years">5 years</label>
+        </div>
+        <div class="progress">
+          <div id="progress-bar-html" class="progress-bar">
+            <label class="lang">HTML</label>
+          </div>
+          <label class="years">3 years</label>
+        </div>
+        <div class="progress">
+          <div id="progress-bar-css" class="progress-bar">
+            <label class="lang">CSS</label>
+          </div>
+          <label class="years">2 years</label>
+        </div>
+      </section>
+
+      <div id="codebox">
+        <p id="code">
+          class <span class="red">Website</span> {<br />
+          &#8195;&#8195;<span class="teal">constructor</span>(<span class="blue"
+            >quality</span
+          >) {<br />
+          &#8195;&#8195;&#8195;&#8195;<span class="blue">this.quality</span> =
+          <span class="blue">quality</span>;<br />
+          &#8195;&#8195;}<br />
+          &#8195;&#8195;<span class="gray"
+            >//TODO: Write actual website code</span
+          ><br />
+          }<br />
+          <br />
+
+          function <span class="teal">createPortfolio</span>(<span class="blue"
+            >creator</span
+          >) {<br />
+          &#8195;&#8195;if(<span class="blue">creator.name</span> ===
+          <span class="orange">"Ethan Rettinger"</span>) {<br />
+          &#8195;&#8195;&#8195;&#8195;return <span class="purple">new</span>
+          <span class="red">Website</span>(<span class="orange">"good"</span
+          >);<br />
+          &#8195;&#8195;} else {<br />
+          &#8195;&#8195;&#8195;&#8195;return <span class="purple">new</span>
+          <span class="red">Website</span>(<span class="orange">"bad"</span
+          >);<br />
+          &#8195;&#8195;}<br />
+          }
+        </p>
+    </div>
+    </main>
+  </body>
+</html>

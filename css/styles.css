@@ -60,7 +60,7 @@ li:hover {
 }
 header {
 	text-align: center;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: black;
 	animation: fadein 2s;
 }
@@ -81,7 +81,7 @@ header {
 	}
 }
 #about > h3 {
-	font-size: 3vw;
+	font-size: 1.8vw;
 	max-width: 60%;
 	color: black;
 	text-align: center;

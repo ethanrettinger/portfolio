@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+	.progress {
+		width: 60%;
+	}
+	@keyframes fill80 {
+		from {
+			width: 0%;
+		}
+		to {
+			width: 60%;
+		}
+	}
+	@keyframes fill50 {
+		from {
+			width: 0%;
+		}
+		to {
+			width: 30%;
+		}
+	}
+	@keyframes fill33 {
+		from {
+			width: 0%;
+		}
+		to {
+			width: 15%;
+		}
+	}
+	#codebox {
+		display: none;
+	}
+    section {
+        max-width: 50%;
+        margin-left: 20px;
+    }
+    table {
+        width: 10%;
+    }
+    video {
+        width: 60%;
+        height: auto;
+    }
+    dl {
+        width: 60%;
+    }
+    main {
+        margin-bottom: 200px;
+    }
+}

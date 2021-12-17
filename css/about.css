@@ -1,0 +1,25 @@
+section {
+    width: 70%;
+}
+
+section h2 {
+    text-align: center;
+}
+
+#langs {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+tr {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #ccc;
+}
+td, tr, th, table {
+    border: 2px solid #ccc;
+}

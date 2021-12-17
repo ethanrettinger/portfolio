@@ -1,0 +1,26 @@
+
+h3 {
+    text-align: center;
+}
+#videoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#videoContainer video {
+    margin: 5px;
+}
+
+dl {
+	margin-bottom: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+dt {
+    font-weight: bold;
+}
